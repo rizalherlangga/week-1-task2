@@ -80,7 +80,7 @@ function submitData() {
 
   if (say.length > 0) {
     let hay = say.join(", ");
-    alert(`Kolom ${hay} harus diisi, dong!`);
+    alert(`Kolom ${hay} semuanya harus diisi ya bang!`);
     return;
   }
 
