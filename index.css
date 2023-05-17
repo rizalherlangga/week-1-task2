@@ -9,7 +9,17 @@ body {
   width: 100%;
   background-color: #f3f4f6;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+}
+
+.main {
+  width: 1140px;
+  margin: 50px auto;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #cecece;
+  background-color: white;
+  display: flex;
 }
 
 .Cv {

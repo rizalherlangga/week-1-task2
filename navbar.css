@@ -50,15 +50,6 @@ li a:hover {
   width: 5%;
   padding-left: 70px;
 }
-.main {
-  width: 1150px;
-  margin: 50px 50px;
-  padding: 30px 50px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px #cecece;
-  background-color: white;
-  display: flex;
-}
 
 .about {
   width: 700px;

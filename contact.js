@@ -60,16 +60,28 @@ function submitData() {
   let subject = document.getElementById("subjek").value;
   let message = document.getElementById("message").value;
 
+  let say = [];
+
   if (name == "") {
-    return alert("nama harus diisi");
-  } else if (email == "") {
-    return alert("email harus diisi");
-  } else if (phone == "") {
-    return alert("phone harus diisi");
-  } else if (subject == "") {
-    return alert("subject harus diisi");
-  } else if (message == "") {
-    return alert("message harus diisi");
+    say.push("nama");
+  }
+  if (email == "") {
+    say.push("email");
+  }
+  if (phone == "") {
+    say.push("phone");
+  }
+  if (subject == "") {
+    say.push("subject");
+  }
+  if (message == "") {
+    say.push("message");
+  }
+
+  if (say.length > 0) {
+    let hay = say.join(", ");
+    alert(`Kolom ${hay} harus diisi, dong!`);
+    return;
   }
 
   let emailReceiver = "rizsut03@gmail.com";
