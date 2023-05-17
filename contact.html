@@ -35,15 +35,15 @@
       <h1>GET IN TOUCH</h1>
       <div>
         <label for="input-name">Name</label>
-        <input id="input-name" type="text" required />
+        <input id="input-name" type="text" />
       </div>
       <div>
         <label for="input-email">Email</label>
-        <input id="input-email" type="email" required />
+        <input id="input-email" type="email" />
       </div>
       <div>
         <label for="input-no">Phone</label>
-        <input id="input-no" type="number" required />
+        <input id="input-no" type="number" />
       </div>
       <div>
         <label for="subjek">Subject</label>
@@ -59,8 +59,9 @@
         <textarea id="message" rows="5" cols="10"></textarea>
       </div>
       <div>
-        <button>Submit</button>
+        <button type="button" onclick="submitData()">Submit</button>
       </div>
     </form>
+    <script src="contact.js"></script>
   </body>
 </html>
